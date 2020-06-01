@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div{
+    border: 5px solid #333;
+    line-height: 290px;
+    height: 290px;
+    text-align: center;
+    animation: mover linear 1.5s infinite alternate;
+    width: 290px;
+}
+
+@keyframes mover{
+    0%{
+        background-color: #000;
+        border-radius: 0px;
+    }
+
+    100%{
+        background-color: #FFF;
+        border-radius: 160px;
+    }
+}
+
+p{
+    color: #000;
+    font-size: 75px;
+    margin: 0;
+}
