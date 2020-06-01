@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{ message }}</p>
+        <button @click="reverse">　反　転　</button>
+      </div>
+
+  <script>
+new Vue({
+  el: '#app',
+  data: {
+    message: 'るれさく尽め埋で生先dkoがンイラムイタのrettiwT'
+  },
+  methods: {
+    reverse: function(){
+      this.message = this.message.split('').reverse().join('');
+    }
+  }
+})
+  </script>
+</body>
+</html>
