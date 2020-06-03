@@ -4,9 +4,19 @@ body{
 
 table{
 	padding:10px;
-	border-style: solid;
-	border-width: 1px;
-	border:1px;
+}
+
+tr,td{
+	border-style: ridge;
+	font-size: small;
+	text-align: center;
+}
+
+th{
+	font-size: medium;
+	text-align: left;
+	padding: 10px;
+	column-span: all;
 }
 
 #header{
