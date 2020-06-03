@@ -1,8 +1,5 @@
-@charset "UTF-8";
-
 body{
 	margin: 0;
-	background: #C00;
 }
 
 table{
@@ -13,7 +10,7 @@ table{
 }
 
 #header{
-	background-color: #C00;
+	background-color: darkseagreen;
 	padding: 10px;
 }
 
